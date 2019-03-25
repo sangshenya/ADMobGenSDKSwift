@@ -1,0 +1,51 @@
+PODS:
+  - ADMobGenAdapter (1.2.0):
+    - ADMobGenFoundation
+  - ADMobGenFoundation (0.4.1)
+  - ADMobGenGDT (4.8.4):
+    - ADMobGenAdapter
+  - ADMobGenMCAd (0.3.8):
+    - ADMobGenAdapter
+    - ADMobGenMCAdSDK
+  - ADMobGenMCAdSDK (0.3.4)
+  - ADMobGenNetwork (0.3.4)
+  - ADMobGenSDK (1.5.0):
+    - ADMobGenAdapter
+    - ADMobGenNetwork
+  - ADMobGenSDKWM (0.8.0):
+    - ADMobGenAdapter
+    - ADMobGenWMSDK
+  - ADMobGenWMSDK (1.9.8.5)
+
+DEPENDENCIES:
+  - ADMobGenGDT
+  - ADMobGenMCAd
+  - ADMobGenSDK
+  - ADMobGenSDKWM
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ADMobGenAdapter
+    - ADMobGenFoundation
+    - ADMobGenGDT
+    - ADMobGenMCAd
+    - ADMobGenMCAdSDK
+    - ADMobGenNetwork
+    - ADMobGenSDK
+    - ADMobGenSDKWM
+    - ADMobGenWMSDK
+
+SPEC CHECKSUMS:
+  ADMobGenAdapter: 8ebfb97ab5f61462ebb1b421474c4537a06a9adc
+  ADMobGenFoundation: d7e4b5db8cddb7dbf910ed5403296940dcb87062
+  ADMobGenGDT: 965a1cbf1da30015536d29dcb91fc60199bfb491
+  ADMobGenMCAd: 786a26af1839a5392bde737d040edc690b0bd41e
+  ADMobGenMCAdSDK: da8c0dcfe666c7aa599d345a749f055ab3de4697
+  ADMobGenNetwork: 6cf16f095a75b4f2422d526c56904b22e4b144b1
+  ADMobGenSDK: fbe89825d840bae0b73333dbf761d4700cb74546
+  ADMobGenSDKWM: c3afea2cc34595eb0453d1a2115c59355aa83182
+  ADMobGenWMSDK: a1a842b13bfd1c7be8bb3d82b27f3d660665e540
+
+PODFILE CHECKSUM: 17fa2991de719c55ed4d57162d063a2f21eb4ad9
+
+COCOAPODS: 1.5.3

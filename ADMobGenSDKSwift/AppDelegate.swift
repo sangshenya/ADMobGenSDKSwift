@@ -9,14 +9,67 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate {
+    
+    
 
     var window: UIWindow?
-
+    var splash: ADMobGenSplashAd?
+    var viewCon: ViewController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        ADMobGenSDKConfig.setLogLevel(ADMobGenLogLevel(rawValue: 1)!)
+//        ADMobGenSDKConfig.setDebugMode(true)
+        
+        ADMobGenSDKConfig.initWithAppId("2938412") { (error) in
+            if error != nil {
+                NSLog("SDK初始化失败")
+            }
+        }
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        viewCon = ViewController()
+        
+        let nav = UINavigationController(rootViewController: viewCon!)
+        
+        window?.rootViewController = nav
+        window?.makeKeyAndVisible()
+        
+        
+        loadSplash()
+        
+        
         return true
+    }
+    
+    func loadSplash(){
+        splash = ADMobGenSplashAd.init()
+        splash?.delegate = self
+        
+        let imageBackGround = UIImage.init(named: "750x1334.png")
+        let color = UIColor.init(patternImage: imageBackGround!)
+        
+        splash?.backgroundColor = color
+        
+        splash?.loadAndShow(in: window, withBottomView: nil)
+        
+    }
+    
+    func admg_splashAdSuccess(toPresentScreen splashAd: ADMobGenSplashAd!) {
+        print(#function)
+    }
+    
+    func admg_splashAd(_ splash: ADMobGenSplashAd!, failToPresentScreen error: Error!) {
+        print(#function)
+    }
+    
+    func admg_splashAdClicked(_ splashAd: ADMobGenSplashAd!) {
+        print(#function)
+    }
+    
+    func admg_splashAdClosed(_ splashAd: ADMobGenSplashAd!) {
+        print(#function)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -39,6 +92,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    }
+    
+    func isIphoneX() -> Bool {
+        return UIScreen.main.nativeBounds.size.height-2436 == 0 ? true : false
+    }
+    func isSmallIphone() -> Bool {
+        return UIScreen.main.bounds.size.height == 480 ? true : false
     }
 
 

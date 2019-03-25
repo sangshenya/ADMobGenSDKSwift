@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4370EF10344BB783D07B0227 /* Pods_ADMobGenSDKSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91F61CBFB6476360970ECA6 /* Pods_ADMobGenSDKSwift.framework */; };
 		BF6EA6BD224873250022061F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6BC224873250022061F /* AppDelegate.swift */; };
 		BF6EA6BF224873250022061F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6BE224873250022061F /* ViewController.swift */; };
 		BF6EA6C2224873250022061F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6EA6C0224873250022061F /* Main.storyboard */; };
 		BF6EA6C4224873260022061F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF6EA6C3224873260022061F /* Assets.xcassets */; };
 		BF6EA6C7224873260022061F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6EA6C5224873260022061F /* LaunchScreen.storyboard */; };
+		BF6EA6D02248E1740022061F /* ADMob_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6EA6CF2248E1740022061F /* ADMob_Logo.png */; };
+		BF6EA6D22248E1790022061F /* 750x1334.png in Resources */ = {isa = PBXBuildFile; fileRef = BF6EA6D12248E1790022061F /* 750x1334.png */; };
+		BF6EA6D42248EF660022061F /* ADMobGenSplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6D32248EF660022061F /* ADMobGenSplashViewController.swift */; };
+		BF6EA6D62248EF800022061F /* ADMobGenBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6D52248EF800022061F /* ADMobGenBannerViewController.swift */; };
+		BF6EA6D82248EFC70022061F /* ADMobGenRewardvodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6D72248EFC70022061F /* ADMobGenRewardvodViewController.swift */; };
+		BF6EA6DA2248EFD90022061F /* ADMobGenNativeExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6D92248EFD90022061F /* ADMobGenNativeExpressViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3025DB50064E7B1EC3C3CC3C /* Pods-ADMobGenSDKSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMobGenSDKSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift.release.xcconfig"; sourceTree = "<group>"; };
+		986D89D609F1BFE9D9C7A447 /* Pods-ADMobGenSDKSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ADMobGenSDKSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		BF6EA6B9224873250022061F /* ADMobGenSDKSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADMobGenSDKSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF6EA6BC224873250022061F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF6EA6BE224873250022061F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,14 @@
 		BF6EA6C3224873260022061F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF6EA6C6224873260022061F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF6EA6C8224873260022061F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF6EA6CE224875BB0022061F /* ADMobGenSDKSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADMobGenSDKSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		BF6EA6CF2248E1740022061F /* ADMob_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ADMob_Logo.png; sourceTree = "<group>"; };
+		BF6EA6D12248E1790022061F /* 750x1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 750x1334.png; sourceTree = "<group>"; };
+		BF6EA6D32248EF660022061F /* ADMobGenSplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMobGenSplashViewController.swift; sourceTree = "<group>"; };
+		BF6EA6D52248EF800022061F /* ADMobGenBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMobGenBannerViewController.swift; sourceTree = "<group>"; };
+		BF6EA6D72248EFC70022061F /* ADMobGenRewardvodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMobGenRewardvodViewController.swift; sourceTree = "<group>"; };
+		BF6EA6D92248EFD90022061F /* ADMobGenNativeExpressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMobGenNativeExpressViewController.swift; sourceTree = "<group>"; };
+		E91F61CBFB6476360970ECA6 /* Pods_ADMobGenSDKSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADMobGenSDKSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4370EF10344BB783D07B0227 /* Pods_ADMobGenSDKSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		16695E7613C66FD9A92918A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				986D89D609F1BFE9D9C7A447 /* Pods-ADMobGenSDKSwift.debug.xcconfig */,
+				3025DB50064E7B1EC3C3CC3C /* Pods-ADMobGenSDKSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6746AD4581764910FDD51D77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E91F61CBFB6476360970ECA6 /* Pods_ADMobGenSDKSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF6EA6B0224873250022061F = {
 			isa = PBXGroup;
 			children = (
 				BF6EA6BB224873250022061F /* ADMobGenSDKSwift */,
 				BF6EA6BA224873250022061F /* Products */,
+				16695E7613C66FD9A92918A7 /* Pods */,
+				6746AD4581764910FDD51D77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +91,19 @@
 		BF6EA6BB224873250022061F /* ADMobGenSDKSwift */ = {
 			isa = PBXGroup;
 			children = (
+				BF6EA6CF2248E1740022061F /* ADMob_Logo.png */,
+				BF6EA6D12248E1790022061F /* 750x1334.png */,
 				BF6EA6BC224873250022061F /* AppDelegate.swift */,
 				BF6EA6BE224873250022061F /* ViewController.swift */,
+				BF6EA6D32248EF660022061F /* ADMobGenSplashViewController.swift */,
+				BF6EA6D52248EF800022061F /* ADMobGenBannerViewController.swift */,
+				BF6EA6D72248EFC70022061F /* ADMobGenRewardvodViewController.swift */,
+				BF6EA6D92248EFD90022061F /* ADMobGenNativeExpressViewController.swift */,
 				BF6EA6C0224873250022061F /* Main.storyboard */,
 				BF6EA6C3224873260022061F /* Assets.xcassets */,
 				BF6EA6C5224873260022061F /* LaunchScreen.storyboard */,
 				BF6EA6C8224873260022061F /* Info.plist */,
+				BF6EA6CE224875BB0022061F /* ADMobGenSDKSwift-Bridging-Header.h */,
 			);
 			path = ADMobGenSDKSwift;
 			sourceTree = "<group>";
@@ -71,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF6EA6CB224873260022061F /* Build configuration list for PBXNativeTarget "ADMobGenSDKSwift" */;
 			buildPhases = (
+				9042D6BF2062487C26664746 /* [CP] Check Pods Manifest.lock */,
 				BF6EA6B5224873250022061F /* Sources */,
 				BF6EA6B6224873250022061F /* Frameworks */,
 				BF6EA6B7224873250022061F /* Resources */,
+				81B3744B83054E383745D418 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,13 +168,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF6EA6D02248E1740022061F /* ADMob_Logo.png in Resources */,
 				BF6EA6C7224873260022061F /* LaunchScreen.storyboard in Resources */,
 				BF6EA6C4224873260022061F /* Assets.xcassets in Resources */,
 				BF6EA6C2224873250022061F /* Main.storyboard in Resources */,
+				BF6EA6D22248E1790022061F /* 750x1334.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		81B3744B83054E383745D418 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ADMobGenMCAd/MCAdBundles.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ADMobGenSDKWM/BUAdSDK.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MCAdBundles.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BUAdSDK.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9042D6BF2062487C26664746 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ADMobGenSDKSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF6EA6B5224873250022061F /* Sources */ = {
@@ -137,6 +234,10 @@
 			files = (
 				BF6EA6BF224873250022061F /* ViewController.swift in Sources */,
 				BF6EA6BD224873250022061F /* AppDelegate.swift in Sources */,
+				BF6EA6D42248EF660022061F /* ADMobGenSplashViewController.swift in Sources */,
+				BF6EA6D82248EFC70022061F /* ADMobGenRewardvodViewController.swift in Sources */,
+				BF6EA6D62248EF800022061F /* ADMobGenBannerViewController.swift in Sources */,
+				BF6EA6DA2248EFD90022061F /* ADMobGenNativeExpressViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,37 +381,47 @@
 		};
 		BF6EA6CC224873260022061F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 986D89D609F1BFE9D9C7A447 /* Pods-ADMobGenSDKSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XV36ECQQZA;
 				INFOPLIST_FILE = ADMobGenSDKSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sangshen.ADMobGenSDKSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.smallrecipeapp.beauty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADMobGenSDKSwift/ADMobGenSDKSwift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Debug;
 		};
 		BF6EA6CD224873260022061F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3025DB50064E7B1EC3C3CC3C /* Pods-ADMobGenSDKSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = XV36ECQQZA;
 				INFOPLIST_FILE = ADMobGenSDKSwift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = sangshen.ADMobGenSDKSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.smallrecipeapp.beauty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ADMobGenSDKSwift/ADMobGenSDKSwift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 			};
 			name = Release;
 		};
