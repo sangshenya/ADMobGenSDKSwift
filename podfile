@@ -8,7 +8,7 @@ target 'ADMobGenSDKSwift' do
 pod 'ADMobGenSDK'
 pod 'ADMobGenGDT'
 pod 'ADMobGenSDKWM'
-pod 'ADMobGenMCAd'
+pod 'ADMobileAd'
 
   # Pods for ADMobGenSDKSwift
 

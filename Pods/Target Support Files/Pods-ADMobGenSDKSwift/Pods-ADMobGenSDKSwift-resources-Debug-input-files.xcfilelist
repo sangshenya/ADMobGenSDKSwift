@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/ADMobGenAdapter/ADMobGenBundles.bundle
+${PODS_ROOT}/Bytedance-UnionAD/Bytedance-UnionAd/Frameworks/BUAdSDK.bundle

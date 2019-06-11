@@ -11,6 +11,8 @@ import UIKit
 class ADMobGenNativeExpressViewController: UIViewController,ADMobGenNativeExpressAdDelegate {
     
     
+    
+    
 
     public var adType : ADMobGenNativeAdType!
     var loadBut : UIButton!
@@ -85,6 +87,10 @@ class ADMobGenNativeExpressViewController: UIViewController,ADMobGenNativeExpres
     
     func admg_nativeExpressVideoAdView(_ nativeExpressAdView: ADMobGenNativeExpressAdView!, stateDidChanged playerState: ADMobGenPlayerState) {
         print(#function)
+    }
+    
+    func admg_nativeExpressAdViewClose(_ nativeExpressAdView: ADMobGenNativeExpressAdView!) {
+        
     }
 
 }

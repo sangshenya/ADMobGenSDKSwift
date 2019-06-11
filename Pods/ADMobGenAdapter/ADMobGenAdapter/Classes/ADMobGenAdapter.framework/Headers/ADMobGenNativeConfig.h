@@ -9,15 +9,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, ADMobGenPlayerState) {
-    ADMobGenPlayerStateInitial = 0,//初始化状态
-    ADMobGenPlayerStateBuffering = 1,//缓冲中
-    ADMobGenPlayerStatePlaying = 2,//播放中
-    ADMobGenPlayerStatePaused = 3,//播放暂停
-    ADMobGenPlayerStateStopped = 4,//播放停止
-    ADMobGenPlayerStateError = 5,//播放出错
-};
-
 typedef NS_ENUM(NSUInteger, ADMobGenNativeAdType) {
     ADMobGenNativeAdTypeNormal = 0,//上图下文，默认为图文，图片尺寸为16：9
     ADMobGenNativeAdTypePic,//纯图片16：9
@@ -28,6 +19,7 @@ typedef NS_ENUM(NSUInteger, ADMobGenNativeAdType) {
     ADMobGenNativeAdTypeVideoNormal,// 视频广告默认类型
     ADMobGenNativeAdTypeVideoPic,// 视频广告无文字纯图
     ADMobGenNativeAdTypeVideoCenterPic,// 视频广告上文下图
+    ADMobGenNativeAdTypeThreePic,//三图
     
 };
 
@@ -36,9 +28,11 @@ typedef NS_ENUM(NSUInteger, ADMobGenNativeAdPlatform) {
     ADMobGenNativeAdPlatformWM,//头条
     ADMobGenNativeAdPlatformBaidu,//百度
     ADMobGenNativeAdPlatformADMob,//ADMob
+    ADMobGenNativeAdPlatformInmobi,//inmobi
+    ADMobGenNativeAdPlatformMTG,//mobvsita
+    ADMobGenNativeAdPlatformGoogle,//谷歌
     ADMobGenNativeAdPlatformNone,//之前版本
 };
-
 
 @protocol ADMobGenNativeExpressAdCallBack;
 
@@ -90,6 +84,11 @@ typedef NS_ENUM(NSUInteger, ADMobGenNativeAdPlatform) {
 @property (nonatomic, readonly, assign) BOOL trunType;
 
 /**
+ 隐藏关闭按钮
+ */
+@property (nonatomic, readonly, assign) BOOL hiddenCloseButton;
+
+/**
  构造方法
  */
 + (instancetype)configWithAppId:(NSString *)appId
@@ -121,6 +120,17 @@ typedef NS_ENUM(NSUInteger, ADMobGenNativeAdPlatform) {
                      expectSize:(CGSize)expectSize
                     displayType:(BOOL)displayType
                        trunType:(BOOL)trunType
+                   nativeAdType:(ADMobGenNativeAdType)nativeAdType
+                   platformType:(ADMobGenNativeAdPlatform)platformType
+                 viewController:(UIViewController *)viewController
+                       callback:(id<ADMobGenNativeExpressAdCallBack>)callback DEPRECATED_MSG_ATTRIBUTE("Donot has hiddenCloseButton");
+
++ (instancetype)configWithAppId:(NSString *)appId
+                          posId:(NSString *)posId
+                     expectSize:(CGSize)expectSize
+                    displayType:(BOOL)displayType
+                       trunType:(BOOL)trunType
+              hiddenCloseButton:(BOOL)hiddenCloseButton
                    nativeAdType:(ADMobGenNativeAdType)nativeAdType
                    platformType:(ADMobGenNativeAdPlatform)platformType
                  viewController:(UIViewController *)viewController

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,6 +19,7 @@
 		BF6EA6D62248EF800022061F /* ADMobGenBannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6D52248EF800022061F /* ADMobGenBannerViewController.swift */; };
 		BF6EA6D82248EFC70022061F /* ADMobGenRewardvodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6D72248EFC70022061F /* ADMobGenRewardvodViewController.swift */; };
 		BF6EA6DA2248EFD90022061F /* ADMobGenNativeExpressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6EA6D92248EFD90022061F /* ADMobGenNativeExpressViewController.swift */; };
+		BFD2B3BA22AF53510073426B /* ADMobGenTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD2B3B922AF53510073426B /* ADMobGenTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BF6EA6D52248EF800022061F /* ADMobGenBannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMobGenBannerViewController.swift; sourceTree = "<group>"; };
 		BF6EA6D72248EFC70022061F /* ADMobGenRewardvodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMobGenRewardvodViewController.swift; sourceTree = "<group>"; };
 		BF6EA6D92248EFD90022061F /* ADMobGenNativeExpressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMobGenNativeExpressViewController.swift; sourceTree = "<group>"; };
+		BFD2B3B922AF53510073426B /* ADMobGenTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADMobGenTool.swift; sourceTree = "<group>"; };
 		E91F61CBFB6476360970ECA6 /* Pods_ADMobGenSDKSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ADMobGenSDKSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				BF6EA6C5224873260022061F /* LaunchScreen.storyboard */,
 				BF6EA6C8224873260022061F /* Info.plist */,
 				BF6EA6CE224875BB0022061F /* ADMobGenSDKSwift-Bridging-Header.h */,
+				BFD2B3B922AF53510073426B /* ADMobGenTool.swift */,
 			);
 			path = ADMobGenSDKSwift;
 			sourceTree = "<group>";
@@ -185,22 +188,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ADMobGenMCAd/MCAdBundles.bundle",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ADMobGenSDKWM/BUAdSDK.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MCAdBundles.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BUAdSDK.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9042D6BF2062487C26664746 /* [CP] Check Pods Manifest.lock */ = {
@@ -233,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF6EA6BF224873250022061F /* ViewController.swift in Sources */,
+				BFD2B3BA22AF53510073426B /* ADMobGenTool.swift in Sources */,
 				BF6EA6BD224873250022061F /* AppDelegate.swift in Sources */,
 				BF6EA6D42248EF660022061F /* ADMobGenSplashViewController.swift in Sources */,
 				BF6EA6D82248EFC70022061F /* ADMobGenRewardvodViewController.swift in Sources */,

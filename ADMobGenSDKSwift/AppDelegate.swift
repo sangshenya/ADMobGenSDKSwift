@@ -16,12 +16,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate 
     var window: UIWindow?
     var splash: ADMobGenSplashAd?
     var viewCon: ViewController?
+    
+    
+    
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         ADMobGenSDKConfig.setLogLevel(ADMobGenLogLevel(rawValue: 1)!)
-//        ADMobGenSDKConfig.setDebugMode(true)
         
+        //测试Debug包需要，一般情况下不开启,需要时会另行通知
+        //ADMobGenSDKConfig.setDebugMode(true)
+        
+        // 初始化ADMobGenSDK
         ADMobGenSDKConfig.initWithAppId("2938412") { (error) in
             if error != nil {
                 NSLog("SDK初始化失败")
@@ -36,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate 
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
         
-        
+        // 加载开屏广告，需要放在makeKeyAndVisible方法之后
         loadSplash()
         
         
@@ -44,15 +50,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate 
     }
     
     func loadSplash(){
+        // 初始化
         splash = ADMobGenSplashAd.init()
         splash?.delegate = self
-        
+        // 设置开屏背景颜色，将图片转换成平铺颜色
         let imageBackGround = UIImage.init(named: "750x1334.png")
         let color = UIColor.init(patternImage: imageBackGround!)
         
         splash?.backgroundColor = color
         
-        splash?.loadAndShow(in: window, withBottomView: nil)
+        // 配置底部视图
+        var bottomViewHeight:CGFloat = 0
+        if isIPhoneXSeries() {
+            bottomViewHeight = SCREEN_HEIGHT * 0.25
+        } else {
+            bottomViewHeight = SCREEN_HEIGHT - (SCREEN_WIDTH * 960 / 640)
+        }
+        let bottomView = UIView.init(frame: CGRect.init(x: 0, y: SCREEN_HEIGHT - bottomViewHeight, width: SCREEN_WIDTH, height: bottomViewHeight))
+        
+        bottomView.backgroundColor = UIColor.white
+        
+        let logoImageView = UIImageView.init(image: UIImage.init(named: "ADMob_Logo.png"))
+        logoImageView.frame = CGRect.init(x: (SCREEN_WIDTH - 135)/2, y: (bottomViewHeight - 46)/2, width: 135, height: 46)
+        
+        bottomView.addSubview(logoImageView)
+        
+        
+        // 加载全屏的开屏广告
+        //splash?.loadAndShow(in: window, withBottomView: nil)
+        // 加载带有底部视图的开屏广告
+        splash?.loadAndShow(in: window, withBottomView: bottomView)
         
     }
     

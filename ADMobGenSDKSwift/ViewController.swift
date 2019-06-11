@@ -13,7 +13,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
 
     private var table : UITableView!
-    private var demoArray: Array<Array<String>> = [["开屏广告","banner","激励视频"],["原生模版上图下文","原生模版下图上文","原生模版左图右文","原生模版右图左文","原生模版纯图","原生模版竖图"]]
+    private var demoArray: Array<Array<String>> = [["开屏广告","banner","激励视频"],["原生模版上图下文","原生模版下图上文","原生模版左图右文","原生模版右图左文","原生模版纯图","原生模版竖图","原生模版三图"]]
     private let tableViewCellID = "SimpleTableIdentifier"
     
     override func viewDidLoad() {
@@ -112,7 +112,11 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
             }
             
         } else {
-            
+            if indexPath.row == 6 {
+                
+                loadNative(ADMobGenNativeAdType(rawValue: 9)!)
+                return
+            }
             loadNative(ADMobGenNativeAdType(rawValue: UInt(indexPath.row))!)
             
         }

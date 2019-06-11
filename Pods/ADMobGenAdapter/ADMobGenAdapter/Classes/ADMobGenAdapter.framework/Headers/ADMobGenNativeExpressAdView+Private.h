@@ -7,37 +7,21 @@
 
 #import "ADMobGenNativeExpressAdView.h"
 
-@class ADMobGenNativeAdData;
-@class ADMobGenNativeConfig;
-@protocol ADMobGenNativeExpressAdViewDelegate;
+@protocol ADMobGenNativeExpressProtocol;
 
 @interface ADMobGenNativeExpressAdView ()
 
-#pragma mark - Get
-@property (nonatomic, readonly, strong) ADMobGenNativeAdData *adData; // 渲染资源
-@property (nonatomic, readonly, strong) ADMobGenNativeConfig *config; // 广告配置
+@property (nonatomic, strong, readonly) UIView<ADMobGenNativeExpressProtocol> *adView;
 
-#pragma mark - Set
-@property (nonatomic, weak) id<ADMobGenNativeExpressAdViewDelegate> delegate; // 视图生命周期回调
-@property (nonatomic, assign) CGFloat impressRatio; // 展现比例, 范围0 ~ 1, 默认是0.5
+- (instancetype)initWithAdView:(UIView<ADMobGenNativeExpressProtocol> *)adView DEPRECATED_MSG_ATTRIBUTE("Donot has webViewType");
 
-- (instancetype)initWithAdData:(ADMobGenNativeAdData *)adData config:(ADMobGenNativeConfig *)config NS_DESIGNATED_INITIALIZER;
+- (instancetype)initWithAdView:(UIView<ADMobGenNativeExpressProtocol> *)adView webViewType:(BOOL)webViewType;
 
+- (void)setClickTracked;
+- (BOOL)getClickTracked;
 
-- (instancetype)new NS_UNAVAILABLE;
-
-- (instancetype)init NS_UNAVAILABLE;
-
-@end
-
-
-@protocol ADMobGenNativeExpressAdViewDelegate <NSObject>
-
-@optional
-- (void)nativeExpressAdViewRenderSuccessAction:(ADMobGenNativeExpressAdView *)expressAdView;
-- (void)nativeExpressAdViewRenderFailAction:(ADMobGenNativeExpressAdView *)expressAdView;
-- (void)nativeExpressAdViewExposureAction:(ADMobGenNativeExpressAdView *)expressAdView;
-- (void)nativeExpressAdViewClickedAction:(ADMobGenNativeExpressAdView *)expressAdView;
+- (void)setExposureTracked;
+- (BOOL)getExposureTracked;
 
 @end
 

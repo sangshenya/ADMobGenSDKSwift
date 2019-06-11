@@ -30,6 +30,23 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)loadVideoAd;
 
 /**
+ 加载激励视频广告
+ 
+ @param index 广告位序号，默认为0，不同的页面使用，可以传如不同的序号
+ */
+- (void)loadVideoAdIndex:(NSInteger)index;
+
+/**
+ 激励视频广告是否准备好
+ */
+- (BOOL)rewardvodAdIsReady;
+
+/**
+ 激励视频广告物料是否有效
+ */
+- (BOOL)rewardvodAdIsValid;
+
+/**
  展示激励视频广告
  */
 - (void)showRewardvodAd;

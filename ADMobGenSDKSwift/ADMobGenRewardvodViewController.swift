@@ -32,13 +32,10 @@ class ADMobGenRewardvodViewController: UIViewController,ADMobGenRewardvodAdDeleg
         self.loadBut.setTitleColor(UIColor.white, for: .normal)
         self.view.addSubview(self.loadBut)
         
-        self.loadBut.addTarget(self, action: #selector(loadRewvod), for: .touchUpInside)
-        self.loadBut.isHidden = true
+        self.loadBut.addTarget(self, action: #selector(loadRewardAd(_ :)), for: .touchUpInside)
+//        self.loadBut.isHidden = true
         
-        self.rewardvodAd = ADMobGenRewardvodAd.init()
-        self.rewardvodAd.controller = self
-        self.rewardvodAd.delegate = self
-        self.rewardvodAd.loadVideoAd()
+       
     }
     
     
@@ -46,14 +43,38 @@ class ADMobGenRewardvodViewController: UIViewController,ADMobGenRewardvodAdDeleg
         self.navigationController?.dismiss(animated: true, completion: nil)
     }
     
-    @objc func loadRewvod() {
-        self.rewardvodAd.show()
+    @objc func loadRewardAd(_ sender: UIButton) {
+        if sender.isSelected {
+            return;
+        }
+        sender.isSelected = true
+        // 初始化激励视频广告
+        self.rewardvodAd = ADMobGenRewardvodAd.init()
+        self.rewardvodAd.controller = self
+        self.rewardvodAd.delegate = self
+        // 加载激励视频广告
+        self.rewardvodAd.loadVideoAd()
+        
     }
     
-    //ADMobGenRewardvodAdDelegate
+    // 加载激励视频广告
+    @objc func showRewvodAd() {
+        
+        if !self.rewardvodAd.rewardvodAdIsValid() {
+            NSLog("物料料已过期，请重新加载");
+            return;
+        }
+        if self.rewardvodAd.rewardvodAdIsReady() {
+            //广告已经准备好了
+            self.rewardvodAd.show()
+        }
+    }
+    
+    // ADMobGenRewardvodAdDelegate
     func admg_rewardvodAdLoadSuccessCallBack(_ rewardvodAd: ADMobGenRewardvodAd) {
         print(#function)
-        self.loadBut.isHidden = false
+        self.showRewvodAd()
+        self.loadBut.isSelected = false
     }
     
     func admg_rewardvodAdVideoLoadSuccessCallBack(_ rewardvodAd: ADMobGenRewardvodAd) {

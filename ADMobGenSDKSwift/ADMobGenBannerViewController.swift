@@ -11,6 +11,8 @@ import UIKit
 class ADMobGenBannerViewController: UIViewController,ADMobGenBannerViewDelegate {
     
     
+    
+    
 
     var loadBut : UIButton!
     var bannerView : ADMobGenBannerView!
@@ -38,12 +40,22 @@ class ADMobGenBannerViewController: UIViewController,ADMobGenBannerViewDelegate 
     }
     
     @objc func loadBanner() {
-        self.bannerView = ADMobGenBannerView.init(frame: CGRect.zero, withBannerSize: ADMobGenBannerAdSize(rawValue: 0)!)
+        if self.bannerView != nil {
+            self.bannerView.removeFromSuperview()
+            self.bannerView = nil
+        }
+        // 初始化
+//        self.bannerView = ADMobGenBannerView.init(frame: CGRect.zero, withBannerSize: ADMobGenBannerAdSize(rawValue: 0)!)
+        let height = size.width * 100 / 640
+        self.bannerView = ADMobGenBannerView.init(frame: CGRect.init(x: 0, y: size.height - height, width: size.width, height: height), withBannerSize: ADMobGenBannerAdSize(rawValue: 0)!, withBannerIndex: 0, withGdtBanner: false, with: self)
         self.bannerView.delegate = self
         self.bannerView.backgroundColor = UIColor.red
-        let height = size.width * 100 / 640
-        self.bannerView.frame = CGRect.init(x: 0, y: size.height - height, width: size.width, height: height)
         self.view.addSubview(self.bannerView)
+        
+        // 隐藏关闭按钮
+        self.bannerView.closeButtonHidden(true)
+        
+        // 加载并显示banner广告，注意: 请确保banner视图显示在屏幕内的时候,调用load方法
         self.bannerView.loadWithError(nil)
     }
     
@@ -62,6 +74,10 @@ class ADMobGenBannerViewController: UIViewController,ADMobGenBannerViewDelegate 
     
     func admg_bannerViewClicked(_ bannerView: ADMobGenBannerView!) {
         print(#function)
+    }
+    
+    func admg_bannerViewClose(_ bannerView: ADMobGenBannerView!) {
+        
     }
 
 }

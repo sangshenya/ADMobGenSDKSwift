@@ -34,7 +34,9 @@ class ADMobGenSplashViewController: UIViewController,ADMobGenSplashAdDelegate {
 
     }
     
+//注意：当你在控制器中加载开屏时，请勿在viewWillAppear中加载开屏，该方法会调用多次，使得展示多次开屏广告，在viewDidLoad中加载开屏广告的时候，如果该控制器没有用导航栏承载，会出现无法展示广告，却走了加载成功的回调方法
     @objc func loadSplash() {
+        // 初始化
         self.splash = ADMobGenSplashAd.init()
         self.splash.delegate = self
         
@@ -43,7 +45,7 @@ class ADMobGenSplashViewController: UIViewController,ADMobGenSplashAdDelegate {
         
         splash?.backgroundColor = color
         
-        
+        // 加载全屏广告
         splash?.loadAndShow(in: UIApplication.shared.keyWindow, withBottomView: nil)
     }
     
