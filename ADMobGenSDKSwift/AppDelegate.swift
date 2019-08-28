@@ -22,17 +22,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        ADMobGenSDKConfig.setLogLevel(ADMobGenLogLevel(rawValue: 1)!)
-        
-        //测试Debug包需要，一般情况下不开启,需要时会另行通知
-        //ADMobGenSDKConfig.setDebugMode(true)
-        
-        // 初始化ADMobGenSDK
-        ADMobGenSDKConfig.initWithAppId("2938412") { (error) in
-            if error != nil {
-                NSLog("SDK初始化失败")
-            }
-        }
         
         window = UIWindow(frame: UIScreen.main.bounds)
         viewCon = ViewController()
@@ -42,9 +31,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate 
         window?.rootViewController = nav
         window?.makeKeyAndVisible()
         
+        ADMobGenSDKConfig.setLogLevel(ADMobGenLogLevel(rawValue: 1)!)
+        
+        //测试Debug包需要，一般情况下不开启,需要时会另行通知
+        //ADMobGenSDKConfig.setDebugMode(true)
+        
+        // 初始化ADMobGenSDK
+        ADMobGenSDKConfig.initWithAppId("2495846") { (error) in
+            if error != nil {
+                NSLog("SDK初始化失败")
+            }
+        }
+        
         // 加载开屏广告，需要放在makeKeyAndVisible方法之后
         loadSplash()
-        
         
         return true
     }
@@ -62,8 +62,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate 
         // 配置底部视图
         var bottomViewHeight:CGFloat = 0
         if isIPhoneXSeries() {
+            NSLog("1111111")
             bottomViewHeight = SCREEN_HEIGHT * 0.25
         } else {
+            NSLog("2222222")
             bottomViewHeight = SCREEN_HEIGHT - (SCREEN_WIDTH * 960 / 640)
         }
         let bottomView = UIView.init(frame: CGRect.init(x: 0, y: SCREEN_HEIGHT - bottomViewHeight, width: SCREEN_WIDTH, height: bottomViewHeight))
@@ -77,7 +79,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate 
         
         
         // 加载全屏的开屏广告
-        //splash?.loadAndShow(in: window, withBottomView: nil)
+//        splash?.loadAndShow(in: window, withBottomView: nil)
         // 加载带有底部视图的开屏广告
         splash?.loadAndShow(in: window, withBottomView: bottomView)
         

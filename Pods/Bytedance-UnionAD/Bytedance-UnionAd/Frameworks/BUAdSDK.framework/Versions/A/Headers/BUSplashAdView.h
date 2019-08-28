@@ -6,6 +6,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BUMaterialMeta.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,7 +19,7 @@ The unique identifier of splash ad.
 @property (nonatomic, copy, readonly, nonnull) NSString *slotID;
 
 /**
- Maximum allowable load timeout, default 2s, unit s.
+ Maximum allowable load timeout, default 3s, unit s.
  */
 @property (nonatomic, assign) NSTimeInterval tolerateTimeout;
 
@@ -96,6 +97,12 @@ The unique identifier of splash ad.
  This method is called when splash ad is about to close.
  */
 - (void)splashAdWillClose:(BUSplashAdView *)splashAd;
+
+/**
+ This method is called when another controller has been closed.
+ @param interactionType : open appstore in app or open the webpage or view video ad details page.
+ */
+- (void)splashAdDidCloseOtherController:(BUSplashAdView *)splashAd interactionType:(BUInteractionType)interactionType;
 
 @end
 

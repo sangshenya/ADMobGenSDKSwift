@@ -390,7 +390,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.smallrecipeapp.beauty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dingdatech.ddtrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ADMobGenSDKSwift/ADMobGenSDKSwift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
@@ -413,7 +413,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cn.smallrecipeapp.beauty;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dingdatech.ddtrip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "ADMobGenSDKSwift/ADMobGenSDKSwift-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;

@@ -42,6 +42,7 @@ class ADMobGenNativeExpressViewController: UIViewController,ADMobGenNativeExpres
     
     @objc func loadNative() {
         if nativeExpress == nil {
+            // 初始化高度不能超过真实高度
             self.nativeExpress = ADMobGenNativeExpressAd.init(size: CGSize.init(width: size.width, height: 50))
             self.nativeExpress.controller = self
             self.nativeExpress.delegate = self
@@ -71,6 +72,7 @@ class ADMobGenNativeExpressViewController: UIViewController,ADMobGenNativeExpres
             self.adView.removeFromSuperview()
         }
         self.adView = nativeExpressAdView
+        // 在此处可以获取到视图的真实高度
         let height = self.adView.contentSize().height
         self.view.addSubview(self.adView)
         self.adView?.frame = CGRect.init(x: 0, y: 120, width: size.width, height: height)

@@ -47,6 +47,7 @@ class ADMobGenBannerViewController: UIViewController,ADMobGenBannerViewDelegate 
         // 初始化
 //        self.bannerView = ADMobGenBannerView.init(frame: CGRect.zero, withBannerSize: ADMobGenBannerAdSize(rawValue: 0)!)
         let height = size.width * 100 / 640
+        // 初始化时尽量将size填入，头条和广点通新版banner都需要size
         self.bannerView = ADMobGenBannerView.init(frame: CGRect.init(x: 0, y: size.height - height, width: size.width, height: height), withBannerSize: ADMobGenBannerAdSize(rawValue: 0)!, withBannerIndex: 0, withGdtBanner: false, with: self)
         self.bannerView.delegate = self
         self.bannerView.backgroundColor = UIColor.red

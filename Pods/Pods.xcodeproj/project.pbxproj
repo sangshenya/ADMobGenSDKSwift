@@ -127,32 +127,25 @@
 
 /* Begin PBXBuildFile section */
 		1D3580A902ACB6CF570F3C56EFE0864C /* google_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0433C4B74A1843635B142BB6946F6DE /* google_logo@2x.png */; };
+		29D5308C145AD0D4D645F123BD2585B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2B3370BB6657CF7E9CF02874A1E42015 /* admobile_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E094A065D7D1CB06F834ED385EEA52B /* admobile_logo@2x.png */; };
 		38DCA8072C96BA11A8599C9034D96136 /* google_logo@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57518784ECF14E2E31F297F8EA68D017 /* google_logo@3x.png */; };
 		50ECFA51B1B51A2DECC3ECA85D481160 /* close2@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3FFCCF46DD47AACC55C3F2EA1B40FA1 /* close2@1x.png */; };
 		50EDC4B87AAD1E3FD6FD4CBCB4F7D5E1 /* close1@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 449966FB2DA49729E4F98FE004842FD5 /* close1@1x.png */; };
-		5BF1851AF03E5C87ED3DB757C5E57CC1 /* Pods-ADMobGenSDKSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C58AD8BB2E5EA826D2691E5B949327DF /* Pods-ADMobGenSDKSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62DAB2F24EBEF49C59ACE35AA7D74B28 /* mtg_adlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E3753E2CEB3EBD7290BCFEB927F6466 /* mtg_adlogo@2x.png */; };
 		6B31ECF51906241DDC241F9CA29A42E0 /* wm_adlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17A9D01C5F9697346649085C3E590836 /* wm_adlogo@2x.png */; };
 		7E813E6C3AC07A3A07B435A8C4A88195 /* inmobi_adlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B231FD4ABC3EFE8C4BA3ED024F57DEA /* inmobi_adlogo@2x.png */; };
 		91F42C34C5BFE437707F6664FC2E71CE /* close1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E694F118E0D18BF18EB1046E4F892A43 /* close1@2x.png */; };
 		97C630EF839F35C3713C32097670B640 /* inmobi_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA4277514C05802D83B3EEE45C3AC58E /* inmobi_logo@2x.png */; };
 		9DBB24B436483797D1BC8DE98279B5C7 /* close2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D696F7E943818E99701127807F6845C /* close2@2x.png */; };
+		A14C852941AF745CD2D49799D50FC5AF /* Pods-ADMobGenSDKSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C58AD8BB2E5EA826D2691E5B949327DF /* Pods-ADMobGenSDKSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A39108E7773DD9BE981667750C1163D0 /* admobile_adlogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B15263D8D1AE18E06B20C4269309454B /* admobile_adlogo@2x.png */; };
-		A7630C31B130A99D2B620FF7328B7716 /* Pods-ADMobGenSDKSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05105305EBF5E80121742B9E05384CC8 /* Pods-ADMobGenSDKSwift-dummy.m */; };
 		B38896B4D77D341FF759C683A15EB921 /* mtg_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C87673FAC5A4E73A1FE0B864B2EE05C /* mtg_logo@2x.png */; };
 		DE18A8BD08EF13A16592BC1EEA27A2A9 /* wm_logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 388E8C253E2DD7D8F4E4431408855009 /* wm_logo@2x.png */; };
-		EAA28359220AE6E9BA480D9770B9AE99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		E369AC8CC861142678F1A0FB3B78CFBC /* Pods-ADMobGenSDKSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05105305EBF5E80121742B9E05384CC8 /* Pods-ADMobGenSDKSwift-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0832A5B8255425331ABD2E1C53FBEFC5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6F2BDBDBBAD8487EF4614E1D729C5DD0;
-			remoteInfo = GDTMobSDK;
-		};
 		0BB4DE5081783F5F5FCCC96E1DB48BB7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -160,19 +153,26 @@
 			remoteGlobalIDString = 18D85D050267CB4318971F2F5AF5D0D8;
 			remoteInfo = ADMobGenAdapter;
 		};
-		0C9C91BF83BCC8C802A13AC5ACA6B98D /* PBXContainerItemProxy */ = {
+		0D939A2C58639D8F078629E2C3A5DAC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D09246B3A9D432E6A235B060892A55AE;
+			remoteInfo = ADMobGenNetwork;
+		};
+		15205E5DE0D4C153C0AAD298214744AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8FCD3B19A83E16E09A3BCA82B7817D2B;
 			remoteInfo = ADMobGenFoundation;
 		};
-		0D099F18AC763B4E662D157AA67D8F15 /* PBXContainerItemProxy */ = {
+		24B77AB0362CB750253B34FCC9D67876 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5AD6929721BDE45726EE5AD4EBEE960;
-			remoteInfo = ADMobGenDeviceInfo;
+			remoteGlobalIDString = F65A1E1D95DB2768CB29FEF5BCC7D040;
+			remoteInfo = ADMobGenSDKWM;
 		};
 		2B3FB976C38D5D691A36ACCBEC29338C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -180,6 +180,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 18D85D050267CB4318971F2F5AF5D0D8;
 			remoteInfo = ADMobGenAdapter;
+		};
+		2BA94E78B93226767DD5897669620C9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F307421229A0B837C7868292EBEF76C0;
+			remoteInfo = ADMobileAd;
 		};
 		34865F15234808FF8302F8A531C47C60 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -230,12 +237,12 @@
 			remoteGlobalIDString = 8FCD3B19A83E16E09A3BCA82B7817D2B;
 			remoteInfo = ADMobGenFoundation;
 		};
-		6722BE38333F0B4D832FB2AF5B16D592 /* PBXContainerItemProxy */ = {
+		63A3F4F85561E8EDC3872DF55784E8B8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F65A1E1D95DB2768CB29FEF5BCC7D040;
-			remoteInfo = ADMobGenSDKWM;
+			remoteGlobalIDString = 6F2BDBDBBAD8487EF4614E1D729C5DD0;
+			remoteInfo = GDTMobSDK;
 		};
 		6927E6BA1C4F6C938D049F60C6386372 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -244,19 +251,12 @@
 			remoteGlobalIDString = E5AD6929721BDE45726EE5AD4EBEE960;
 			remoteInfo = ADMobGenDeviceInfo;
 		};
-		6F613CF2F9082F9BB0399CFB874AD650 /* PBXContainerItemProxy */ = {
+		6AACA8A68B0B11E54FDA13D5A2C2B6C7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CFF15B55A7D909D785135EE87F8E1F39;
-			remoteInfo = ADMobGenGDT;
-		};
-		7C5803315307362003A2801322F44049 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18D85D050267CB4318971F2F5AF5D0D8;
-			remoteInfo = ADMobGenAdapter;
+			remoteGlobalIDString = 45CDB175955E898457ADC745AF9BBE71;
+			remoteInfo = ADMobGenSDK;
 		};
 		83A730A330DFC6F16B8BC3584F3743C9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -265,12 +265,12 @@
 			remoteGlobalIDString = 8FCD3B19A83E16E09A3BCA82B7817D2B;
 			remoteInfo = ADMobGenFoundation;
 		};
-		8E55DE004C43E3968A81F295E8208C03 /* PBXContainerItemProxy */ = {
+		ADF72506E24893F0088ADCC1E0184932 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D09246B3A9D432E6A235B060892A55AE;
-			remoteInfo = ADMobGenNetwork;
+			remoteGlobalIDString = E5AD6929721BDE45726EE5AD4EBEE960;
+			remoteInfo = ADMobGenDeviceInfo;
 		};
 		B445129F7565E3195BB044D315FD27AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -279,6 +279,27 @@
 			remoteGlobalIDString = 6F2BDBDBBAD8487EF4614E1D729C5DD0;
 			remoteInfo = GDTMobSDK;
 		};
+		BF0C9F253F33A4CD5F402D26B39EB3A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E446FE13F6C3D06F866D1D9AA26708;
+			remoteInfo = "Bytedance-UnionAD";
+		};
+		CC90AA20D26323E08CA8C62A7FC94406 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFF15B55A7D909D785135EE87F8E1F39;
+			remoteInfo = ADMobGenGDT;
+		};
+		CD0DEB05344FECC3EF3CB00B8A2ED36E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36F326EB11CCA3A10D698D33AF691465;
+			remoteInfo = ADMobGenLocationManager;
+		};
 		CE09C973341CE315290735CE5120CF0B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -286,19 +307,12 @@
 			remoteGlobalIDString = 33E446FE13F6C3D06F866D1D9AA26708;
 			remoteInfo = "Bytedance-UnionAD";
 		};
-		D737737B7E005A39702C30DF5FA50DF6 /* PBXContainerItemProxy */ = {
+		CEB4B465F311B1A754D14159ADB5FFC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 33E446FE13F6C3D06F866D1D9AA26708;
-			remoteInfo = "Bytedance-UnionAD";
-		};
-		D77796264895A229AEB99416811A7262 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 36F326EB11CCA3A10D698D33AF691465;
-			remoteInfo = ADMobGenLocationManager;
+			remoteGlobalIDString = 18D85D050267CB4318971F2F5AF5D0D8;
+			remoteInfo = ADMobGenAdapter;
 		};
 		DF33D99A97CBE158E67A01B8121CE80C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -314,26 +328,12 @@
 			remoteGlobalIDString = F43ED1AA93AEE25E5F152FEC244ACD3A;
 			remoteInfo = "ADMobGenAdapter-ADMobGenBundles";
 		};
-		EA64E057AB12B90F251B2A54145DD9F4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F307421229A0B837C7868292EBEF76C0;
-			remoteInfo = ADMobileAd;
-		};
 		EB41860ABA149330A76BD3E16D96288D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E5AD6929721BDE45726EE5AD4EBEE960;
 			remoteInfo = ADMobGenDeviceInfo;
-		};
-		EDB28DEDED125CD064C8142B3ADC8AF1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 45CDB175955E898457ADC745AF9BBE71;
-			remoteInfo = ADMobGenSDK;
 		};
 		F141C3A7D497E001E2784CA9BA18F57F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -347,60 +347,63 @@
 /* Begin PBXFileReference section */
 		0131A58F06E4C07A4948B7346C2F5F30 /* Pods-ADMobGenSDKSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ADMobGenSDKSwift.modulemap"; sourceTree = "<group>"; };
 		01FA7280BA75FE507E8DEFEA2C8FAF2B /* ADMobGenLocationManager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobGenLocationManager.xcconfig; sourceTree = "<group>"; };
-		03688BCB1CC91E3ADCDB5C7FE785463D /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedNativeAdDataObject.h; path = lib/GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
 		05105305EBF5E80121742B9E05384CC8 /* Pods-ADMobGenSDKSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ADMobGenSDKSwift-dummy.m"; sourceTree = "<group>"; };
-		1327F7CDC793FAE39E6B2495999EA4FC /* GDTMobSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDTMobSDK.xcconfig; sourceTree = "<group>"; };
+		08A702D3C688A7F2F6838A5F9BDA98D6 /* GDTMobSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GDTMobSDK.xcconfig; sourceTree = "<group>"; };
+		0BBCDC9B1EC61DF962768FC00F729ED2 /* GDTMobBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTMobBannerView.h; path = lib/GDTMobBannerView.h; sourceTree = "<group>"; };
+		160670C3C01237EFF5DBFAE5118D4BE7 /* GDTHybridAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTHybridAd.h; path = lib/GDTHybridAd.h; sourceTree = "<group>"; };
+		16091E570CB1D2BEFAF9C9FA2FFF28B2 /* GDTUnifiedNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedNativeAd.h; path = lib/GDTUnifiedNativeAd.h; sourceTree = "<group>"; };
 		17A9D01C5F9697346649085C3E590836 /* wm_adlogo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wm_adlogo@2x.png"; path = "ADMobGenAdapter/Assets/wm_adlogo@2x.png"; sourceTree = "<group>"; };
 		19974A591917C6C943586FF6E2A2B614 /* ADMobGenNetwork.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobGenNetwork.xcconfig; sourceTree = "<group>"; };
 		1B231FD4ABC3EFE8C4BA3ED024F57DEA /* inmobi_adlogo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "inmobi_adlogo@2x.png"; path = "ADMobGenAdapter/Assets/inmobi_adlogo@2x.png"; sourceTree = "<group>"; };
 		1D696F7E943818E99701127807F6845C /* close2@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close2@2x.png"; path = "ADMobGenAdapter/Assets/close2@2x.png"; sourceTree = "<group>"; };
-		1FBA524E822D2B4229A55BC5E52BE7F6 /* GDTNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTNativeAd.h; path = lib/GDTNativeAd.h; sourceTree = "<group>"; };
+		1EA135636FED552FD836C6DE136EB7CE /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTRewardVideoAd.h; path = lib/GDTRewardVideoAd.h; sourceTree = "<group>"; };
 		21AC82EDB7BADCCFBA0D45F07F9C7ACA /* ADMobGenAdapter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADMobGenAdapter.framework; path = ADMobGenAdapter/Classes/ADMobGenAdapter.framework; sourceTree = "<group>"; };
+		262F2F21D8AC877B48EC8A8D2F8BC676 /* GDTMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTMediaView.h; path = lib/GDTMediaView.h; sourceTree = "<group>"; };
+		27786F74F9692EEA81D59A43DB29757E /* libGDTMobSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGDTMobSDK.a; path = lib/libGDTMobSDK.a; sourceTree = "<group>"; };
 		2C87673FAC5A4E73A1FE0B864B2EE05C /* mtg_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mtg_logo@2x.png"; path = "ADMobGenAdapter/Assets/mtg_logo@2x.png"; sourceTree = "<group>"; };
-		2CE4FA8C22938A808F9C11E4BAFC99BD /* GDTSDKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTSDKConfig.h; path = lib/GDTSDKConfig.h; sourceTree = "<group>"; };
 		2EE533DD0D5B3DB8B54350E2878F1A05 /* BUAdSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = BUAdSDK.bundle; path = "Bytedance-UnionAd/Frameworks/BUAdSDK.bundle"; sourceTree = "<group>"; };
-		354338807F1F03415E40701A1DF16806 /* libGDTMobSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGDTMobSDK.a; path = lib/libGDTMobSDK.a; sourceTree = "<group>"; };
+		30FFFA259D60086C05926D0A791BEDCC /* GDTSplashAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTSplashAd.h; path = lib/GDTSplashAd.h; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		345A9FFE1B79FB044D338789D4174596 /* GDTSDKConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTSDKConfig.h; path = lib/GDTSDKConfig.h; sourceTree = "<group>"; };
 		388E8C253E2DD7D8F4E4431408855009 /* wm_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "wm_logo@2x.png"; path = "ADMobGenAdapter/Assets/wm_logo@2x.png"; sourceTree = "<group>"; };
-		3BC39ED15D7FEA304F15F290A67A8B3A /* GDTHybridAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTHybridAd.h; path = lib/GDTHybridAd.h; sourceTree = "<group>"; };
 		3E094A065D7D1CB06F834ED385EEA52B /* admobile_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "admobile_logo@2x.png"; path = "ADMobGenAdapter/Assets/admobile_logo@2x.png"; sourceTree = "<group>"; };
 		449966FB2DA49729E4F98FE004842FD5 /* close1@1x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close1@1x.png"; path = "ADMobGenAdapter/Assets/close1@1x.png"; sourceTree = "<group>"; };
 		49A7A949CED24F610F6D5143E4EFF99D /* ADMobileAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADMobileAdSDK.framework; path = ADMobileAd/Classes/ADMobileAdSDK.framework; sourceTree = "<group>"; };
 		511C8163EBF0217CAFD6198DF813216A /* Pods-ADMobGenSDKSwift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ADMobGenSDKSwift-resources.sh"; sourceTree = "<group>"; };
+		519E5419EAE06B608F5C5AB8C4EBA364 /* GDTLogoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTLogoView.h; path = lib/GDTLogoView.h; sourceTree = "<group>"; };
 		534A447C8D6ED723D7006CA958ADDF88 /* ADMobGenFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADMobGenFoundation.framework; path = ADMobGenFoundation/Classes/ADMobGenFoundation.framework; sourceTree = "<group>"; };
 		57518784ECF14E2E31F297F8EA68D017 /* google_logo@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "google_logo@3x.png"; path = "ADMobGenAdapter/Assets/google_logo@3x.png"; sourceTree = "<group>"; };
 		5A795276F440D7C39B3E04E73305A93E /* ADMobGenFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobGenFoundation.xcconfig; sourceTree = "<group>"; };
+		5ABE46D76FDF422D39BB4CF15AE08D56 /* ADMobGenBundles.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ADMobGenBundles.bundle; path = "ADMobGenAdapter-ADMobGenBundles.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		621261C8EBBBBB0E494692E6881F685C /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTNativeExpressAd.h; path = lib/GDTNativeExpressAd.h; sourceTree = "<group>"; };
 		66E8C636F490FB4202CAC2A04930F957 /* ADMobGenSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADMobGenSDK.framework; path = ADMobGenSDK/Classes/ADMobGenSDK.framework; sourceTree = "<group>"; };
 		67FFD8E09961D3DB299E12D46D062993 /* ADMobGenGDT.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobGenGDT.xcconfig; sourceTree = "<group>"; };
-		69958D9FC8BA5F300A5C3E7E1676F96B /* GDTUnifiedBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedBannerView.h; path = lib/GDTUnifiedBannerView.h; sourceTree = "<group>"; };
-		6C51D4AB0678259060DFC5F7D028B7F3 /* GDTLogoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTLogoView.h; path = lib/GDTLogoView.h; sourceTree = "<group>"; };
+		6CB14DDC69D3E1DDEB24F63C8A2852C9 /* GDTVideoConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTVideoConfig.h; path = lib/GDTVideoConfig.h; sourceTree = "<group>"; };
 		6E3753E2CEB3EBD7290BCFEB927F6466 /* mtg_adlogo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "mtg_adlogo@2x.png"; path = "ADMobGenAdapter/Assets/mtg_adlogo@2x.png"; sourceTree = "<group>"; };
-		73DFCF63EA12C2169A06D923BB105D1C /* GDTSDKDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTSDKDefines.h; path = lib/GDTSDKDefines.h; sourceTree = "<group>"; };
+		77D4B23758F871A51EDF3B18E3430276 /* GDTUnifiedInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedInterstitialAd.h; path = lib/GDTUnifiedInterstitialAd.h; sourceTree = "<group>"; };
 		78C7A6343561035B0F4D18A2E2299392 /* Pods-ADMobGenSDKSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADMobGenSDKSwift-Info.plist"; sourceTree = "<group>"; };
-		7CA9A03BE12B4C6364BBEA2CB7263FE5 /* GDTUnifiedNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedNativeAdView.h; path = lib/GDTUnifiedNativeAdView.h; sourceTree = "<group>"; };
 		81067F2C43D52B848BC466E985FDBDE6 /* Pods-ADMobGenSDKSwift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ADMobGenSDKSwift-acknowledgements.plist"; sourceTree = "<group>"; };
-		843E40253150A938E5EAF6EC2B27ED97 /* GDTUnifiedNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedNativeAd.h; path = lib/GDTUnifiedNativeAd.h; sourceTree = "<group>"; };
+		89A893E68D473EA04EEBF7185043A3DD /* GDTMobInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTMobInterstitial.h; path = lib/GDTMobInterstitial.h; sourceTree = "<group>"; };
+		8D8CE2529EA30DC86437B39701CA103E /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTNativeExpressAdView.h; path = lib/GDTNativeExpressAdView.h; sourceTree = "<group>"; };
 		8F2B27B2582EFD60B367693AB36E1C08 /* ADMobGenGDT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADMobGenGDT.framework; path = ADMobGenGDT/Classes/ADMobGenGDT.framework; sourceTree = "<group>"; };
-		951DB6351B9CE3EFAAC31EBB0C7CC8B9 /* GDTNativeExpressAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTNativeExpressAd.h; path = lib/GDTNativeExpressAd.h; sourceTree = "<group>"; };
 		9BF4725E6EFD8042A732893BCFAF0847 /* ADMobileAd.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobileAd.xcconfig; sourceTree = "<group>"; };
+		9C5B4931B8F18DA03AC3DED4D4C7963E /* Pods_ADMobGenSDKSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADMobGenSDKSwift.framework; path = "Pods-ADMobGenSDKSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A9FB3B150CF2939E2BE9B5C269EDC276 /* ADMobGenSDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobGenSDK.xcconfig; sourceTree = "<group>"; };
+		AD7F62CF138D1B40E988B2DB0BAC6552 /* GDTUnifiedNativeAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedNativeAdView.h; path = lib/GDTUnifiedNativeAdView.h; sourceTree = "<group>"; };
 		B0E81DE39CCD385B2EDFB1F628566EE1 /* Pods-ADMobGenSDKSwift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ADMobGenSDKSwift-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B0F2541795D2AC0E4469E273043EC66D /* BUAdSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BUAdSDK.framework; path = "Bytedance-UnionAd/Frameworks/BUAdSDK.framework"; sourceTree = "<group>"; };
 		B15263D8D1AE18E06B20C4269309454B /* admobile_adlogo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "admobile_adlogo@2x.png"; path = "ADMobGenAdapter/Assets/admobile_adlogo@2x.png"; sourceTree = "<group>"; };
-		B35BD5F54A880BD7016BD09AFAE2D0FB /* GDTRewardVideoAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTRewardVideoAd.h; path = lib/GDTRewardVideoAd.h; sourceTree = "<group>"; };
-		B3DDE2D5845CB35E547EB5B50DDB1A6C /* GDTMediaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTMediaView.h; path = lib/GDTMediaView.h; sourceTree = "<group>"; };
-		B6FE22B470DAF7008F94A0ECFF41A0F9 /* GDTMobBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTMobBannerView.h; path = lib/GDTMobBannerView.h; sourceTree = "<group>"; };
 		B7398ECF1DF02FF741DFC71073222E30 /* ADMobGenAdapter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobGenAdapter.xcconfig; sourceTree = "<group>"; };
-		BA3483F559568B51E243BEDD16586CC5 /* GDTNativeExpressAdView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTNativeExpressAdView.h; path = lib/GDTNativeExpressAdView.h; sourceTree = "<group>"; };
-		BADF8374F4944FC5E16ADFFEFDFA0B18 /* ADMobGenBundles.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ADMobGenBundles.bundle; path = "ADMobGenAdapter-ADMobGenBundles.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C464167E1ACF7BEED9DB2377022A49D9 /* GDTUnifiedInterstitialAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedInterstitialAd.h; path = lib/GDTUnifiedInterstitialAd.h; sourceTree = "<group>"; };
+		BF8C1E30C30C555FCDF1940C3D169A1F /* GDTUnifiedNativeAdDataObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedNativeAdDataObject.h; path = lib/GDTUnifiedNativeAdDataObject.h; sourceTree = "<group>"; };
+		C071A9C2A487C5F010039F06F6CE669F /* GDTUnifiedBannerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTUnifiedBannerView.h; path = lib/GDTUnifiedBannerView.h; sourceTree = "<group>"; };
+		C3121624614B0463F21AD417F5DFF7BB /* GDTSDKDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTSDKDefines.h; path = lib/GDTSDKDefines.h; sourceTree = "<group>"; };
+		C54794C901C1D017DB1DDB4125BCEB7E /* GDTNativeAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTNativeAd.h; path = lib/GDTNativeAd.h; sourceTree = "<group>"; };
 		C58AD8BB2E5EA826D2691E5B949327DF /* Pods-ADMobGenSDKSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ADMobGenSDKSwift-umbrella.h"; sourceTree = "<group>"; };
 		CA4277514C05802D83B3EEE45C3AC58E /* inmobi_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "inmobi_logo@2x.png"; path = "ADMobGenAdapter/Assets/inmobi_logo@2x.png"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D0433C4B74A1843635B142BB6946F6DE /* google_logo@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "google_logo@2x.png"; path = "ADMobGenAdapter/Assets/google_logo@2x.png"; sourceTree = "<group>"; };
 		D56E2DDD02DC9903ED7486B0F5593BCE /* ADMobGenDeviceInfo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobGenDeviceInfo.xcconfig; sourceTree = "<group>"; };
 		D94D306D9D0E3EE0008DEC72956715C7 /* ADMobGenSDKWM.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ADMobGenSDKWM.xcconfig; sourceTree = "<group>"; };
-		DAD6CE24541A8078BB75A8597BF9D995 /* GDTMobInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTMobInterstitial.h; path = lib/GDTMobInterstitial.h; sourceTree = "<group>"; };
 		DF92CEFCBD891C50DF04AA8338672980 /* ADMobLocationManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADMobLocationManager.framework; path = ADMobGenLocationManager/Classes/ADMobLocationManager.framework; sourceTree = "<group>"; };
 		E4D37DF2250A4280201C5A31E369FC77 /* ADMobGenDeviceInfo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADMobGenDeviceInfo.framework; path = ADMobGenDeviceInfo/Classes/ADMobGenDeviceInfo.framework; sourceTree = "<group>"; };
 		E694F118E0D18BF18EB1046E4F892A43 /* close1@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close1@2x.png"; path = "ADMobGenAdapter/Assets/close1@2x.png"; sourceTree = "<group>"; };
@@ -411,8 +414,6 @@
 		F53A0E1F34817D19CF906192D7722220 /* ADMobGenNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ADMobGenNetwork.framework; path = ADMobGenNetwork/Classes/ADMobGenNetwork.framework; sourceTree = "<group>"; };
 		F61A1F34615AFC5340DB528324196F1F /* ResourceBundle-ADMobGenBundles-ADMobGenAdapter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ADMobGenBundles-ADMobGenAdapter-Info.plist"; sourceTree = "<group>"; };
 		FD8C8B17C8A0469C679F8E4E38748B2C /* Pods-ADMobGenSDKSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ADMobGenSDKSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		FE50C693457AD4C290D773BABB78A05F /* Pods_ADMobGenSDKSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ADMobGenSDKSwift.framework; path = "Pods-ADMobGenSDKSwift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF935A126BB2FC9082FDA76630C7C1CC /* GDTSplashAd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GDTSplashAd.h; path = lib/GDTSplashAd.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -423,27 +424,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E98EDA4D39501FB47317A672E37A98D /* Frameworks */ = {
+		803FC23407599A5F6E2712B92AA99A0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EAA28359220AE6E9BA480D9770B9AE99 /* Foundation.framework in Frameworks */,
+				29D5308C145AD0D4D645F123BD2585B2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00F49592F6D4FB305E86C659ECA19913 /* GDTMobSDK */ = {
-			isa = PBXGroup;
-			children = (
-				BC738055CD5FBE274E238F5020EC76B0 /* GDTMobSDK */,
-				70469166F5187397242710F2EF4162BB /* Support Files */,
-			);
-			name = GDTMobSDK;
-			path = GDTMobSDK;
-			sourceTree = "<group>";
-		};
 		02C6A53A7819C00E3E2732BFB0410290 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,8 +536,8 @@
 		3188E338DBAFA678E4586AC8546DFCF2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BADF8374F4944FC5E16ADFFEFDFA0B18 /* ADMobGenBundles.bundle */,
-				FE50C693457AD4C290D773BABB78A05F /* Pods_ADMobGenSDKSwift.framework */,
+				5ABE46D76FDF422D39BB4CF15AE08D56 /* ADMobGenBundles.bundle */,
+				9C5B4931B8F18DA03AC3DED4D4C7963E /* Pods_ADMobGenSDKSwift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -576,6 +567,15 @@
 				8F2B27B2582EFD60B367693AB36E1C08 /* ADMobGenGDT.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4904ACBD62F5316ECC04B515773D81D4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08A702D3C688A7F2F6838A5F9BDA98D6 /* GDTMobSDK.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GDTMobSDK";
 			sourceTree = "<group>";
 		};
 		503612BC92F2E7A02C89E61B85D01087 /* Targets Support Files */ = {
@@ -634,15 +634,6 @@
 			path = ADMobileAd;
 			sourceTree = "<group>";
 		};
-		70469166F5187397242710F2EF4162BB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1327F7CDC793FAE39E6B2495999EA4FC /* GDTMobSDK.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/GDTMobSDK";
-			sourceTree = "<group>";
-		};
 		7901649FDB0846EF52C41B4162B65E8B /* ADMobGenAdapter */ = {
 			isa = PBXGroup;
 			children = (
@@ -667,7 +658,7 @@
 				807B438D5DF339FEBCFE45CE4132988C /* ADMobGenSDKWM */,
 				6F39C8CE70ED5D27AD53D8BA006E10A7 /* ADMobileAd */,
 				58DE739AB6A3B71C67A49D617FDD6481 /* Bytedance-UnionAD */,
-				00F49592F6D4FB305E86C659ECA19913 /* GDTMobSDK */,
+				F5CCFDC9937B2F1E2C546DB791E00020 /* GDTMobSDK */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -711,14 +702,6 @@
 			path = "../Target Support Files/ADMobGenAdapter";
 			sourceTree = "<group>";
 		};
-		93E12D66B27EF532C8EA61ECE4305810 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				354338807F1F03415E40701A1DF16806 /* libGDTMobSDK.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		949BA077D31B1C68D24ADB1A307B796A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -726,14 +709,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ADMobileAd";
-			sourceTree = "<group>";
-		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		AD1811814D1F94AE2FC238452568B37F /* Support Files */ = {
@@ -753,29 +728,20 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		BC738055CD5FBE274E238F5020EC76B0 /* GDTMobSDK */ = {
+		B8E26EBAFA5624D1AE655B444E1F8E01 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3BC39ED15D7FEA304F15F290A67A8B3A /* GDTHybridAd.h */,
-				6C51D4AB0678259060DFC5F7D028B7F3 /* GDTLogoView.h */,
-				B3DDE2D5845CB35E547EB5B50DDB1A6C /* GDTMediaView.h */,
-				B6FE22B470DAF7008F94A0ECFF41A0F9 /* GDTMobBannerView.h */,
-				DAD6CE24541A8078BB75A8597BF9D995 /* GDTMobInterstitial.h */,
-				1FBA524E822D2B4229A55BC5E52BE7F6 /* GDTNativeAd.h */,
-				951DB6351B9CE3EFAAC31EBB0C7CC8B9 /* GDTNativeExpressAd.h */,
-				BA3483F559568B51E243BEDD16586CC5 /* GDTNativeExpressAdView.h */,
-				B35BD5F54A880BD7016BD09AFAE2D0FB /* GDTRewardVideoAd.h */,
-				2CE4FA8C22938A808F9C11E4BAFC99BD /* GDTSDKConfig.h */,
-				73DFCF63EA12C2169A06D923BB105D1C /* GDTSDKDefines.h */,
-				FF935A126BB2FC9082FDA76630C7C1CC /* GDTSplashAd.h */,
-				69958D9FC8BA5F300A5C3E7E1676F96B /* GDTUnifiedBannerView.h */,
-				C464167E1ACF7BEED9DB2377022A49D9 /* GDTUnifiedInterstitialAd.h */,
-				843E40253150A938E5EAF6EC2B27ED97 /* GDTUnifiedNativeAd.h */,
-				03688BCB1CC91E3ADCDB5C7FE785463D /* GDTUnifiedNativeAdDataObject.h */,
-				7CA9A03BE12B4C6364BBEA2CB7263FE5 /* GDTUnifiedNativeAdView.h */,
-				93E12D66B27EF532C8EA61ECE4305810 /* Frameworks */,
+				27786F74F9692EEA81D59A43DB29757E /* libGDTMobSDK.a */,
 			);
-			name = GDTMobSDK;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C09D34E264FBFDB554C45C6121AD1497 /* Support Files */ = {
@@ -809,7 +775,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -851,12 +817,48 @@
 			path = "Target Support Files/Pods-ADMobGenSDKSwift";
 			sourceTree = "<group>";
 		};
+		E209C037F716CC49BC6B1F8775686DF9 /* GDTMobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				160670C3C01237EFF5DBFAE5118D4BE7 /* GDTHybridAd.h */,
+				519E5419EAE06B608F5C5AB8C4EBA364 /* GDTLogoView.h */,
+				262F2F21D8AC877B48EC8A8D2F8BC676 /* GDTMediaView.h */,
+				0BBCDC9B1EC61DF962768FC00F729ED2 /* GDTMobBannerView.h */,
+				89A893E68D473EA04EEBF7185043A3DD /* GDTMobInterstitial.h */,
+				C54794C901C1D017DB1DDB4125BCEB7E /* GDTNativeAd.h */,
+				621261C8EBBBBB0E494692E6881F685C /* GDTNativeExpressAd.h */,
+				8D8CE2529EA30DC86437B39701CA103E /* GDTNativeExpressAdView.h */,
+				1EA135636FED552FD836C6DE136EB7CE /* GDTRewardVideoAd.h */,
+				345A9FFE1B79FB044D338789D4174596 /* GDTSDKConfig.h */,
+				C3121624614B0463F21AD417F5DFF7BB /* GDTSDKDefines.h */,
+				30FFFA259D60086C05926D0A791BEDCC /* GDTSplashAd.h */,
+				C071A9C2A487C5F010039F06F6CE669F /* GDTUnifiedBannerView.h */,
+				77D4B23758F871A51EDF3B18E3430276 /* GDTUnifiedInterstitialAd.h */,
+				16091E570CB1D2BEFAF9C9FA2FFF28B2 /* GDTUnifiedNativeAd.h */,
+				BF8C1E30C30C555FCDF1940C3D169A1F /* GDTUnifiedNativeAdDataObject.h */,
+				AD7F62CF138D1B40E988B2DB0BAC6552 /* GDTUnifiedNativeAdView.h */,
+				6CB14DDC69D3E1DDEB24F63C8A2852C9 /* GDTVideoConfig.h */,
+				B8E26EBAFA5624D1AE655B444E1F8E01 /* Frameworks */,
+			);
+			name = GDTMobSDK;
+			sourceTree = "<group>";
+		};
 		ED9F3A0A40A3EC1B6CBAAD0384A45F5C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				DF92CEFCBD891C50DF04AA8338672980 /* ADMobLocationManager.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5CCFDC9937B2F1E2C546DB791E00020 /* GDTMobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E209C037F716CC49BC6B1F8775686DF9 /* GDTMobSDK */,
+				4904ACBD62F5316ECC04B515773D81D4 /* Support Files */,
+			);
+			name = GDTMobSDK;
+			path = GDTMobSDK;
 			sourceTree = "<group>";
 		};
 		FA4F484A572397D8FAE215D9634A4694 /* Frameworks */ = {
@@ -870,11 +872,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A85E0CCCC2A54A243308C1D5BA685C48 /* Headers */ = {
+		98FF62D949CE0139F6B0C4B4ACB5804E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BF1851AF03E5C87ED3DB757C5E57CC1 /* Pods-ADMobGenSDKSwift-umbrella.h in Headers */,
+				A14C852941AF745CD2D49799D50FC5AF /* Pods-ADMobGenSDKSwift-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -895,36 +897,36 @@
 			);
 			name = "ADMobGenAdapter-ADMobGenBundles";
 			productName = "ADMobGenAdapter-ADMobGenBundles";
-			productReference = BADF8374F4944FC5E16ADFFEFDFA0B18 /* ADMobGenBundles.bundle */;
+			productReference = 5ABE46D76FDF422D39BB4CF15AE08D56 /* ADMobGenBundles.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		FAE01DD67FC51A43EE5C142FB9657932 /* Pods-ADMobGenSDKSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF7953C7C4C46DE8B9EBE20ACB467092 /* Build configuration list for PBXNativeTarget "Pods-ADMobGenSDKSwift" */;
+			buildConfigurationList = 223E0DC1B2B01C242EF2CEBE2071FFF1 /* Build configuration list for PBXNativeTarget "Pods-ADMobGenSDKSwift" */;
 			buildPhases = (
-				A85E0CCCC2A54A243308C1D5BA685C48 /* Headers */,
-				12A7C921BFEA2776E653FE9B641A0591 /* Sources */,
-				3E98EDA4D39501FB47317A672E37A98D /* Frameworks */,
-				4F0242E8C1511082D3866CCA4EF69CE2 /* Resources */,
+				98FF62D949CE0139F6B0C4B4ACB5804E /* Headers */,
+				13DC2487092B3835CDBF9CF1CC5C6E30 /* Sources */,
+				803FC23407599A5F6E2712B92AA99A0D /* Frameworks */,
+				36406B0DBF47F1345039C1488D1F3BA4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				121778061F9E6DDD7887EA7554403366 /* PBXTargetDependency */,
-				7BAFA23435EA8C8CA5556C886E2327B8 /* PBXTargetDependency */,
-				5B08C2DD40013A5BEA0A2DE3F1F486F9 /* PBXTargetDependency */,
-				6AB618CB6AA3D320F86EB3EC5FBE6C35 /* PBXTargetDependency */,
-				3C287ED792FEE907B8802FC7045D28D3 /* PBXTargetDependency */,
-				76DFCC9CA107693CC191C885885820B5 /* PBXTargetDependency */,
-				46897CDE9A3CABEF2F67B2BBA984BCE5 /* PBXTargetDependency */,
-				9B1E3FAC7D275DB6E9828668407E3AAD /* PBXTargetDependency */,
-				30ED4D106815CD047F8BE1F35B961C95 /* PBXTargetDependency */,
-				EE08F0FED620530C8BB08A35880FC96A /* PBXTargetDependency */,
-				377FBE4A7BE0950BAE8A3E997FA5B7FF /* PBXTargetDependency */,
+				D0E4390E0A1578FAAA1ABDA55CDBEEAA /* PBXTargetDependency */,
+				BA2013E2064FEF15E51175FD11B06124 /* PBXTargetDependency */,
+				018228E58D0F39AE1B69A55798750E2D /* PBXTargetDependency */,
+				7DAF962BB639F11D7520107D7A958A76 /* PBXTargetDependency */,
+				EC07184C221B556EE208EEDF3876BB5F /* PBXTargetDependency */,
+				20BD0EED616C09D8C108BA026D2D9B8E /* PBXTargetDependency */,
+				4510F1449704C665572AB2485B6A8BE9 /* PBXTargetDependency */,
+				FDDDAF74F161C180136EDDD33D8B3A3F /* PBXTargetDependency */,
+				D4C4740CCE9D549ABA7E569D2C6005F2 /* PBXTargetDependency */,
+				7D47A5498C9AD4CA484C523CD1F850DA /* PBXTargetDependency */,
+				4D0B715B00E1AB2B3CA2663D09C4A509 /* PBXTargetDependency */,
 			);
 			name = "Pods-ADMobGenSDKSwift";
 			productName = "Pods-ADMobGenSDKSwift";
-			productReference = FE50C693457AD4C290D773BABB78A05F /* Pods_ADMobGenSDKSwift.framework */;
+			productReference = 9C5B4931B8F18DA03AC3DED4D4C7963E /* Pods_ADMobGenSDKSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -933,12 +935,12 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -966,6 +968,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		36406B0DBF47F1345039C1488D1F3BA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4DAE527BB8E9670EFFD631AFE9E5A40E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -987,21 +996,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4F0242E8C1511082D3866CCA4EF69CE2 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		12A7C921BFEA2776E653FE9B641A0591 /* Sources */ = {
+		13DC2487092B3835CDBF9CF1CC5C6E30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7630C31B130A99D2B620FF7328B7716 /* Pods-ADMobGenSDKSwift-dummy.m in Sources */,
+				E369AC8CC861142678F1A0FB3B78CFBC /* Pods-ADMobGenSDKSwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1015,17 +1017,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		018228E58D0F39AE1B69A55798750E2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ADMobGenFoundation;
+			target = 8FCD3B19A83E16E09A3BCA82B7817D2B /* ADMobGenFoundation */;
+			targetProxy = 15205E5DE0D4C153C0AAD298214744AA /* PBXContainerItemProxy */;
+		};
 		1162E5EC8BC37EAC3D6A0F0E5A6976C5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ADMobGenAdapter;
 			target = 18D85D050267CB4318971F2F5AF5D0D8 /* ADMobGenAdapter */;
 			targetProxy = 0BB4DE5081783F5F5FCCC96E1DB48BB7 /* PBXContainerItemProxy */;
 		};
-		121778061F9E6DDD7887EA7554403366 /* PBXTargetDependency */ = {
+		20BD0EED616C09D8C108BA026D2D9B8E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ADMobGenAdapter;
-			target = 18D85D050267CB4318971F2F5AF5D0D8 /* ADMobGenAdapter */;
-			targetProxy = 7C5803315307362003A2801322F44049 /* PBXContainerItemProxy */;
+			name = ADMobGenNetwork;
+			target = D09246B3A9D432E6A235B060892A55AE /* ADMobGenNetwork */;
+			targetProxy = 0D939A2C58639D8F078629E2C3A5DAC0 /* PBXContainerItemProxy */;
 		};
 		2B76AAD657006AFD85A9C78F8240BDBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1039,23 +1047,11 @@
 			target = F43ED1AA93AEE25E5F152FEC244ACD3A /* ADMobGenAdapter-ADMobGenBundles */;
 			targetProxy = E6CD9E8EB6D303FDC583B53FDB1BC549 /* PBXContainerItemProxy */;
 		};
-		30ED4D106815CD047F8BE1F35B961C95 /* PBXTargetDependency */ = {
+		4510F1449704C665572AB2485B6A8BE9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ADMobileAd;
-			target = F307421229A0B837C7868292EBEF76C0 /* ADMobileAd */;
-			targetProxy = EA64E057AB12B90F251B2A54145DD9F4 /* PBXContainerItemProxy */;
-		};
-		377FBE4A7BE0950BAE8A3E997FA5B7FF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GDTMobSDK;
-			target = 6F2BDBDBBAD8487EF4614E1D729C5DD0 /* GDTMobSDK */;
-			targetProxy = 0832A5B8255425331ABD2E1C53FBEFC5 /* PBXContainerItemProxy */;
-		};
-		3C287ED792FEE907B8802FC7045D28D3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ADMobGenLocationManager;
-			target = 36F326EB11CCA3A10D698D33AF691465 /* ADMobGenLocationManager */;
-			targetProxy = D77796264895A229AEB99416811A7262 /* PBXContainerItemProxy */;
+			name = ADMobGenSDK;
+			target = 45CDB175955E898457ADC745AF9BBE71 /* ADMobGenSDK */;
+			targetProxy = 6AACA8A68B0B11E54FDA13D5A2C2B6C7 /* PBXContainerItemProxy */;
 		};
 		46293E774748AFBF50CF853FD32114F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1063,11 +1059,11 @@
 			target = D09246B3A9D432E6A235B060892A55AE /* ADMobGenNetwork */;
 			targetProxy = F141C3A7D497E001E2784CA9BA18F57F /* PBXContainerItemProxy */;
 		};
-		46897CDE9A3CABEF2F67B2BBA984BCE5 /* PBXTargetDependency */ = {
+		4D0B715B00E1AB2B3CA2663D09C4A509 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = ADMobGenSDK;
-			target = 45CDB175955E898457ADC745AF9BBE71 /* ADMobGenSDK */;
-			targetProxy = EDB28DEDED125CD064C8142B3ADC8AF1 /* PBXContainerItemProxy */;
+			name = GDTMobSDK;
+			target = 6F2BDBDBBAD8487EF4614E1D729C5DD0 /* GDTMobSDK */;
+			targetProxy = 63A3F4F85561E8EDC3872DF55784E8B8 /* PBXContainerItemProxy */;
 		};
 		527E363B5BD28ABD67DE610E0D4AD8C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1075,35 +1071,23 @@
 			target = 8FCD3B19A83E16E09A3BCA82B7817D2B /* ADMobGenFoundation */;
 			targetProxy = 83A730A330DFC6F16B8BC3584F3743C9 /* PBXContainerItemProxy */;
 		};
-		5B08C2DD40013A5BEA0A2DE3F1F486F9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ADMobGenFoundation;
-			target = 8FCD3B19A83E16E09A3BCA82B7817D2B /* ADMobGenFoundation */;
-			targetProxy = 0C9C91BF83BCC8C802A13AC5ACA6B98D /* PBXContainerItemProxy */;
-		};
 		66E959E32367399EA67622AAD5E422A7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ADMobGenNetwork;
 			target = D09246B3A9D432E6A235B060892A55AE /* ADMobGenNetwork */;
 			targetProxy = 5A9295EE4850AA988FB949FA23FF1751 /* PBXContainerItemProxy */;
 		};
-		6AB618CB6AA3D320F86EB3EC5FBE6C35 /* PBXTargetDependency */ = {
+		7D47A5498C9AD4CA484C523CD1F850DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Bytedance-UnionAD";
+			target = 33E446FE13F6C3D06F866D1D9AA26708 /* Bytedance-UnionAD */;
+			targetProxy = BF0C9F253F33A4CD5F402D26B39EB3A4 /* PBXContainerItemProxy */;
+		};
+		7DAF962BB639F11D7520107D7A958A76 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ADMobGenGDT;
 			target = CFF15B55A7D909D785135EE87F8E1F39 /* ADMobGenGDT */;
-			targetProxy = 6F613CF2F9082F9BB0399CFB874AD650 /* PBXContainerItemProxy */;
-		};
-		76DFCC9CA107693CC191C885885820B5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ADMobGenNetwork;
-			target = D09246B3A9D432E6A235B060892A55AE /* ADMobGenNetwork */;
-			targetProxy = 8E55DE004C43E3968A81F295E8208C03 /* PBXContainerItemProxy */;
-		};
-		7BAFA23435EA8C8CA5556C886E2327B8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ADMobGenDeviceInfo;
-			target = E5AD6929721BDE45726EE5AD4EBEE960 /* ADMobGenDeviceInfo */;
-			targetProxy = 0D099F18AC763B4E662D157AA67D8F15 /* PBXContainerItemProxy */;
+			targetProxy = CC90AA20D26323E08CA8C62A7FC94406 /* PBXContainerItemProxy */;
 		};
 		7F8FB0B2AD3ADF44F14CED7EEEA412AA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1135,12 +1119,6 @@
 			target = 6F2BDBDBBAD8487EF4614E1D729C5DD0 /* GDTMobSDK */;
 			targetProxy = B445129F7565E3195BB044D315FD27AA /* PBXContainerItemProxy */;
 		};
-		9B1E3FAC7D275DB6E9828668407E3AAD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ADMobGenSDKWM;
-			target = F65A1E1D95DB2768CB29FEF5BCC7D040 /* ADMobGenSDKWM */;
-			targetProxy = 6722BE38333F0B4D832FB2AF5B16D592 /* PBXContainerItemProxy */;
-		};
 		ACCF2E973DFD2B9205D26E06EE9D5610 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ADMobGenFoundation;
@@ -1165,11 +1143,23 @@
 			target = D09246B3A9D432E6A235B060892A55AE /* ADMobGenNetwork */;
 			targetProxy = 34865F15234808FF8302F8A531C47C60 /* PBXContainerItemProxy */;
 		};
+		BA2013E2064FEF15E51175FD11B06124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ADMobGenDeviceInfo;
+			target = E5AD6929721BDE45726EE5AD4EBEE960 /* ADMobGenDeviceInfo */;
+			targetProxy = ADF72506E24893F0088ADCC1E0184932 /* PBXContainerItemProxy */;
+		};
 		C9BAB8A2FAE106FBB24ACD645EE8291D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ADMobGenAdapter;
 			target = 18D85D050267CB4318971F2F5AF5D0D8 /* ADMobGenAdapter */;
 			targetProxy = 3B43B3E89796394DCFC8DBE3A48E8879 /* PBXContainerItemProxy */;
+		};
+		D0E4390E0A1578FAAA1ABDA55CDBEEAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ADMobGenAdapter;
+			target = 18D85D050267CB4318971F2F5AF5D0D8 /* ADMobGenAdapter */;
+			targetProxy = CEB4B465F311B1A754D14159ADB5FFC2 /* PBXContainerItemProxy */;
 		};
 		D1EA002A08DE59FE208B888BB2DDBB88 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1177,11 +1167,23 @@
 			target = 18D85D050267CB4318971F2F5AF5D0D8 /* ADMobGenAdapter */;
 			targetProxy = 4AA1817108FBACA34897445BF21F6F10 /* PBXContainerItemProxy */;
 		};
-		EE08F0FED620530C8BB08A35880FC96A /* PBXTargetDependency */ = {
+		D4C4740CCE9D549ABA7E569D2C6005F2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Bytedance-UnionAD";
-			target = 33E446FE13F6C3D06F866D1D9AA26708 /* Bytedance-UnionAD */;
-			targetProxy = D737737B7E005A39702C30DF5FA50DF6 /* PBXContainerItemProxy */;
+			name = ADMobileAd;
+			target = F307421229A0B837C7868292EBEF76C0 /* ADMobileAd */;
+			targetProxy = 2BA94E78B93226767DD5897669620C9B /* PBXContainerItemProxy */;
+		};
+		EC07184C221B556EE208EEDF3876BB5F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ADMobGenLocationManager;
+			target = 36F326EB11CCA3A10D698D33AF691465 /* ADMobGenLocationManager */;
+			targetProxy = CD0DEB05344FECC3EF3CB00B8A2ED36E /* PBXContainerItemProxy */;
+		};
+		FDDDAF74F161C180136EDDD33D8B3A3F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ADMobGenSDKWM;
+			target = F65A1E1D95DB2768CB29FEF5BCC7D040 /* ADMobGenSDKWM */;
+			targetProxy = 24B77AB0362CB750253B34FCC9D67876 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1202,108 +1204,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		0F6ED34DED7175594319D093CE14462B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EF6C3A03882ABD8E1D4A7D4A39FFE16E /* Pods-ADMobGenSDKSwift.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		0F9DE41FC108FC05B463FCAC96ED8EF9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
 		};
 		16CF87B2B1766D7C11A43B0822D2FB47 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1386,6 +1286,107 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		35CC39C18C36F98694A3C0FF4952A168 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8C8B17C8A0469C679F8E4E38748B2C /* Pods-ADMobGenSDKSwift.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ADMobGenSDKSwift/Pods-ADMobGenSDKSwift.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39769C66FA8FB99B807E0CA1F02C1A39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
 		};
 		47ED71F40DEA5D9F6CD6FD8AB62BA189 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1602,7 +1603,56 @@
 			};
 			name = Debug;
 		};
-		B758FBEC27C09CD6E60596DDF8B1CDBB /* Release */ = {
+		C4D135330DE2C855FBCC2F1941B27DEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A702D3C688A7F2F6838A5F9BDA98D6 /* GDTMobSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D79A54C557BCD1E0D9D6D0F74C442B5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7398ECF1DF02FF741DFC71073222E30 /* ADMobGenAdapter.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF8C0F70301C3F84D39094D7D01EDF0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFD7DF6F182419A17EFDF70706F3AA85 /* Bytedance-UnionAD.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E451DDFF283F5C88C57D029CBC41594E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1657,79 +1707,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		C4D135330DE2C855FBCC2F1941B27DEE /* Release */ = {
+		EDCB7F3BB14457D20DBBCCE0004EC23C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1327F7CDC793FAE39E6B2495999EA4FC /* GDTMobSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D79A54C557BCD1E0D9D6D0F74C442B5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7398ECF1DF02FF741DFC71073222E30 /* ADMobGenAdapter.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		DF8C0F70301C3F84D39094D7D01EDF0B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFD7DF6F182419A17EFDF70706F3AA85 /* Bytedance-UnionAD.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F3A54EB2C0E4D0D3DB1B9F7ADF02F6AC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1327F7CDC793FAE39E6B2495999EA4FC /* GDTMobSDK.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F51E8363CFBAD3D1CAA9370B2CAA3E7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD8C8B17C8A0469C679F8E4E38748B2C /* Pods-ADMobGenSDKSwift.debug.xcconfig */;
+			baseConfigurationReference = EF6C3A03882ABD8E1D4A7D4A39FFE16E /* Pods-ADMobGenSDKSwift.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1759,8 +1744,25 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3A54EB2C0E4D0D3DB1B9F7ADF02F6AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08A702D3C688A7F2F6838A5F9BDA98D6 /* GDTMobSDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1792,6 +1794,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		223E0DC1B2B01C242EF2CEBE2071FFF1 /* Build configuration list for PBXNativeTarget "Pods-ADMobGenSDKSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35CC39C18C36F98694A3C0FF4952A168 /* Debug */,
+				EDCB7F3BB14457D20DBBCCE0004EC23C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2A67764767B772283E42C3523C0AF206 /* Build configuration list for PBXAggregateTarget "ADMobGenNetwork" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1813,8 +1824,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F9DE41FC108FC05B463FCAC96ED8EF9 /* Debug */,
-				B758FBEC27C09CD6E60596DDF8B1CDBB /* Release */,
+				39769C66FA8FB99B807E0CA1F02C1A39 /* Debug */,
+				E451DDFF283F5C88C57D029CBC41594E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1869,15 +1880,6 @@
 			buildConfigurations = (
 				D79A54C557BCD1E0D9D6D0F74C442B5B /* Debug */,
 				08069C93088468BB4A2DBA988F88F462 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EF7953C7C4C46DE8B9EBE20ACB467092 /* Build configuration list for PBXNativeTarget "Pods-ADMobGenSDKSwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F51E8363CFBAD3D1CAA9370B2CAA3E7F /* Debug */,
-				0F6ED34DED7175594319D093CE14462B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
