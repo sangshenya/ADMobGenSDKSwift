@@ -37,7 +37,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, ADMobGenSplashAdDelegate 
         //ADMobGenSDKConfig.setDebugMode(true)
         
         // 初始化ADMobGenSDK
-        ADMobGenSDKConfig.initWithAppId("2495846") { (error) in
+        ADMobGenSDKConfig.initWithAppId("2938412") { (error) in
             if error != nil {
                 NSLog("SDK初始化失败")
             }
